@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #cecece;
+  background-image: linear-gradient(to right top, #051937, #002c41, #003d3f, #2c4b3c, #505741);
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  width: 80%;
+  display: flex;
+}
+
+.slide {
+  height: 80vh;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.slide.active {
+  flex: 10;
+  transition: all 0.4s ease-in;
+}
