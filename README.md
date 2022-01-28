@@ -1,4 +1,3 @@
 # Beautiful-slider
-Красивый и простой слайдер, написанный в рамках 5-тидневного JS марафона от Владилена Минина
-
+Simple and beautiful slider on HTML, JS, CSS 
 <a href='https://evgotem.github.io/Beautiful-slider/' target='_blank'>Beautifull slider</a>
